@@ -1,0 +1,27 @@
+Benchmark in-sample cumulative return: -0.039914
+Benchmark in-sample standard deviation of daily returns: 0.017468
+Benchmark in-sample mean of daily returns: 0.000071
+Benchmark out-of-sample cumulative return: -0.135365
+Benchmark out-of-sample standard deviation of daily returns: 0.008782
+Benchmark out-of-sample mean of daily returns: -0.000251
+----------------------------------------------------------
+Manual Strategy portfolio Value in-sample cumulative return: 0.355038
+Manual Strategy portfolio Value in-sample standard deviation of daily returns: 0.012346
+Manual Strategy portfolio Value in-sample mean of daily returns: 0.000679
+Manual Strategy portfolio Value out-of-sample cumulative return: 0.202176
+Manual Strategy portfolio Value out-of-sample standard deviation of daily returns: 0.007606
+Manual Strategy portfolio Value out-of-sample mean of daily returns: 0.000395
+----------------------------------------------------------
+Decision Tree Strategy portfolio Value in-sample cumulative return: 0.972399
+Decision Tree Strategy portfolio Value in-sample standard deviation of daily returns: 0.010932
+Decision Tree Strategy portfolio Value in-sample mean of daily returns: 0.001408
+Decision Tree Strategy portfolio Value out-of-sample cumulative return: -0.274733
+Decision Tree Strategy portfolio Value out-of-sample standard deviation of daily returns: 0.011218
+Decision Tree Strategy portfolio Value out-of-sample mean of daily returns: -0.000576
+----------------------------------------------------------
+Reinforcement Learning Strategy portfolio Value in-sample cumulative return: 2.524845
+Reinforcement Learning Strategy portfolio Value in-sample standard deviation of daily returns: 0.007448
+Reinforcement Learning Strategy portfolio Value in-sample mean of daily returns: 0.002530
+Reinforcement Learning Strategy portfolio Value out-of-sample cumulative return: -0.544112
+Reinforcement Learning Strategy portfolio Value out-of-sample standard deviation of daily returns: 0.014207
+Reinforcement Learning Strategy portfolio Value out-of-sample mean of daily returns: -0.001460
