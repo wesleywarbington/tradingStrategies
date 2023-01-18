@@ -1,5 +1,5 @@
 # tradingStrategies
-Development was done in a conda environment and the [environment](environment.yml) file defines all the dependencies.
+Development was done in a conda environment and the [environment.yml](environment.yml) file defines all the dependencies.
 
 [testproject.py](testproject.py) is the main driver file. Here you can adjust the parameters for the analysis. The variables are the stock symbol, start date, end date (for training and test) and the starting value (in dollars) for the portfolio. For the analysis here, the values used were:
 
@@ -14,7 +14,7 @@ sv=100000
 
 The five charts as well as a .txt file with statistics are written to the [outputs](/outputs) directory.
 
-The [data](/data) folder contains csv files with historic data for respective stock symbols.
+The [data](/data) directory contains csv files with historic data for respective stock symbols.
 
 # Alternate Parameters
 [decision_tree_strategy.py](decision_tree_strategy.py) has three parameters that will have varying effects on performance: leaf_size, bags, & boost. I defined them them as follows:
