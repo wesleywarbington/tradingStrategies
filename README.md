@@ -26,7 +26,7 @@ boost = False
 self.lookback = 20  
 alpha = 0.2  
 gamma = 0.9
-rar = 0.98  
+rar = 0.98    
 radr = 0.999  
 dyna = 0
 
