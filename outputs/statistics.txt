@@ -12,16 +12,16 @@ Manual Strategy portfolio Value out-of-sample cumulative return: 0.202176
 Manual Strategy portfolio Value out-of-sample standard deviation of daily returns: 0.007606
 Manual Strategy portfolio Value out-of-sample mean of daily returns: 0.000395
 ----------------------------------------------------------
-Decision Tree Strategy portfolio Value in-sample cumulative return: 1.130366
-Decision Tree Strategy portfolio Value in-sample standard deviation of daily returns: 0.010218
-Decision Tree Strategy portfolio Value in-sample mean of daily returns: 0.001554
-Decision Tree Strategy portfolio Value out-of-sample cumulative return: -0.258672
-Decision Tree Strategy portfolio Value out-of-sample standard deviation of daily returns: 0.009578
-Decision Tree Strategy portfolio Value out-of-sample mean of daily returns: -0.000549
+Decision Tree Strategy portfolio Value in-sample cumulative return: 1.086075
+Decision Tree Strategy portfolio Value in-sample standard deviation of daily returns: 0.010409
+Decision Tree Strategy portfolio Value in-sample mean of daily returns: 0.001514
+Decision Tree Strategy portfolio Value out-of-sample cumulative return: -0.140075
+Decision Tree Strategy portfolio Value out-of-sample standard deviation of daily returns: 0.008686
+Decision Tree Strategy portfolio Value out-of-sample mean of daily returns: -0.000262
 ----------------------------------------------------------
-Reinforcement Learning Strategy portfolio Value in-sample cumulative return: 2.516500
-Reinforcement Learning Strategy portfolio Value in-sample standard deviation of daily returns: 0.007034
-Reinforcement Learning Strategy portfolio Value in-sample mean of daily returns: 0.002523
-Reinforcement Learning Strategy portfolio Value out-of-sample cumulative return: -0.821033
-Reinforcement Learning Strategy portfolio Value out-of-sample standard deviation of daily returns: 0.019658
-Reinforcement Learning Strategy portfolio Value out-of-sample mean of daily returns: -0.003221
+Reinforcement Learning Strategy portfolio Value in-sample cumulative return: 2.555214
+Reinforcement Learning Strategy portfolio Value in-sample standard deviation of daily returns: 0.006977
+Reinforcement Learning Strategy portfolio Value in-sample mean of daily returns: 0.002544
+Reinforcement Learning Strategy portfolio Value out-of-sample cumulative return: -0.387360
+Reinforcement Learning Strategy portfolio Value out-of-sample standard deviation of daily returns: 0.011575
+Reinforcement Learning Strategy portfolio Value out-of-sample mean of daily returns: -0.000907
