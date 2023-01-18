@@ -1,5 +1,5 @@
 # tradingStrategies
- The development was done in conda environment and the [environment](environment.yml) file defines all the dependencies.
+ The development was done in a conda environment and the [environment](environment.yml) file defines all the dependencies.
 
 [testproject.py](testproject.py) is the main driver file. Here you can adjust the parameters for the analysis. The variables are the stock symbol, start date, end date (for training and test) and the starting value (in dollars) for the portfolio. For the analysis here, the values used were:
 
