@@ -1,7 +1,7 @@
 # tradingStrategies
 [testproject.py](testproject.py) is the main driver file. Here you can adjust the parameters for the analysis. The variables are the stock symbol, start date, end date (for training and test) and the starting value (in dollars) for the portfolio. For the analysis here, the values used were:
 
-symbol="JPM", 
+symbol="JPM"  
 sd=dt.datetime(2008, 1, 1), 
 sdTest=dt.datetime(2010, 1, 1),
 ed=dt.datetime(2009, 12, 31),  
