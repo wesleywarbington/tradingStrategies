@@ -15,11 +15,13 @@ The five charts as well as a .txt file with statistics are written to the [outpu
 The [data](/data) folder contains csv files with historic data for respective stock symbols.
 
 # Alternate Parameters
-[decision_tree_strategy.py](decision_tree_strategy.py) has three parameters that will have varying effects on performance: leaf_size, bags, boost. I defined them them as follows:
+[decision_tree_strategy.py](decision_tree_strategy.py) has three parameters that will have varying effects on performance: leaf_size, bags, & boost. I defined them them as follows:
 
 kwargs={"leaf_size": 10}  
 bags=30  
 boost=False
+
+
 
 # Plots
 ![plot](./outputs/in_sample_normalized_portfolios.png)
