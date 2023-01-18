@@ -7,4 +7,4 @@
 
 ![plot](./outputs/impact_rls.png)
 
-![plot](./outputs/impact_vs_#numTrades.png)
+![plot](./outputs/impact_vs_numTrades.png)
