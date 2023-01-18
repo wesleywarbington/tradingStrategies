@@ -17,11 +17,18 @@ The [data](/data) folder contains csv files with historic data for respective st
 # Alternate Parameters
 [decision_tree_strategy.py](decision_tree_strategy.py) has three parameters that will have varying effects on performance: leaf_size, bags, & boost. I defined them them as follows:
 
-kwargs={"leaf_size": 10}  
-bags=30  
-boost=False
+kwargs = {"leaf_size": 10}  
+bags = 30  
+boost = False
 
+[reinforcement_learning_strategy.py](reinforcement_learning_strategy.py) has 6 parameters that can be changed for varying performance: self.lookback, alpha, gamma, rar, radr, and dyna. I defined them as follows:
 
+self.lookback = 20  
+alpha = 0.2  
+gamma = 0.9
+rar = 0.98  
+radr = 0.999  
+dyna = 0
 
 # Plots
 ![plot](./outputs/in_sample_normalized_portfolios.png)
