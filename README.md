@@ -1,4 +1,7 @@
 # tradingStrategies
+
+
+# Plots
 ![plot](./outputs/in_sample_normalized_portfolios.png)
 
 ![plot](./outputs/out_of_sample_normalized_portfolios.png)
