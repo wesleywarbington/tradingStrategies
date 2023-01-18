@@ -107,7 +107,7 @@ def analysis_1(symbol, sd, ed, sdTest, edTest, sv):
     plt.plot(baseline_outOfSample.index, baseline_outOfSample, c='purple', label='Buy & Hold 1000 Shares')
 
     plt.title('Daily Portfolio Value (Out-of-Sample)')
-    plt.legend(loc='upper left')
+    plt.legend(loc='lower left')
     plt.xlabel('Date')
     plt.ylabel('Normalized Portfolio Value')
     plt.xticks(rotation=45)
@@ -240,7 +240,7 @@ def analysis_2(symbol, sd, ed, sv):
     plt.ylabel('Number of Trades')
     plt.legend(loc='upper right')
     plt.tight_layout()
-    plt.savefig("outputs/impact_vs_#trades.png")
+    plt.savefig("outputs/impact_vs_numTrades.png")
     plt.clf()
 
 
