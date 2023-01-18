@@ -11,7 +11,7 @@ class ManualStrategyLearner(object):
         self.commission = commission
 
 
-    def testPolicy(self, symbol="JPM", sd=dt.datetime(2010, 1, 1), ed=dt.datetime(2011, 12, 31), sv=10000):
+    def testPolicy(self, symbol="JPM", sd=dt.datetime(2010, 1, 1), ed=dt.datetime(2011, 12, 31), sv=100000):
 
         dates = pd.date_range(sd, ed)
         prices_all = get_data([symbol], dates, colname = "Adj Close")  # automatically adds SPY
@@ -84,8 +84,3 @@ class ManualStrategyLearner(object):
                 total -= 1000
 
         return trades
-
-
-if __name__ == "__main__":
-    test = ManualStrategyLearner()
-    test.testPolicy()

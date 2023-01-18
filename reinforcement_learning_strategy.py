@@ -133,14 +133,3 @@ class StrategyLearner(object):
         states = states.ix[sd:]
 
         return states, daily_rets, prices
-
-
-if __name__ == "__main__":
-    learner = StrategyLearner()
-    learner.add_evidence()
-    trades = learner.testPolicy()
-    print(trades)
-    portVal = compute_portvals(orders_df=trades)
-    portValNorm = portVal / portVal.iloc[0]
-    plt.plot(portValNorm.index, portValNorm, c='red', label='Strategy Learner')
-    plt.show()

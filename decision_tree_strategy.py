@@ -103,9 +103,3 @@ class StrategyLearner(object):
                 total -= 1000
 
         return trades
-
-if __name__ == "__main__":
-    learner = StrategyLearner()
-    learner.add_evidence()
-    trades = learner.testPolicy()
-    print(trades)
