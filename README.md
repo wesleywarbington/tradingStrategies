@@ -36,7 +36,7 @@ radr = 0.999
 dyna = 0
 ```
 
-# Plots
+# Visualizations
 ![plot](./outputs/in_sample_normalized_portfolios.png)
 
 ![plot](./outputs/out_of_sample_normalized_portfolios.png)
@@ -46,3 +46,25 @@ dyna = 0
 ![plot](./outputs/impact_rls.png)
 
 ![plot](./outputs/impact_vs_numTrades.png)
+
+# File Breakdowns
+
+[util.py](util.py)
+
+[testproject.py](testproject.py)
+
+[reinforcement_learning_strategy.py](reinforcement_learning_strategy.py)
+
+[marketsimcode.py](marketsimcode.py)
+
+[indicators.py](indicators.py)
+
+[decision_tree_strategy.py](decision_tree_strategy.py)
+
+[RTLearner.py](RTLearner.py)
+
+[QLearner.py](QLearner.py)
+
+[ManualStrategy.py](ManualStrategy.py)
+
+[BagLearner.py](BagLearner.py)
