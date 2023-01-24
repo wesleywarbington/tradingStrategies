@@ -58,16 +58,16 @@ This file takes in a dataframe that specifies buy or sell orders for each day an
 [indicators.py](indicators.py)  
 This file contains the logic for calculating the three technical indicators data that the strategies use to make their trading decisions. The three indicators are the bollinger band percentage (BBP), relative strength index (RSI), and an exponential moving average cross (EMA Cross) which combines ema with a a 13 and 21 day lookback period into one indicator.
 
-[ManualStrategy.py](ManualStrategy.py)
+[ManualStrategy.py](ManualStrategy.py)  
 This file's parameters were tuned with trial and error on the training data. Entering a long or short position is based on hardcoded thresholds for the three technical indicators.
 
-[RTLearner.py](RTLearner.py)
+[RTLearner.py](RTLearner.py)  
 This file is the logic behind the decision tree strategy. It builds and queries the decision tree. Both functions utilize recursive logic. It randomly selects a feature to split on (those being the bbp value, rsi value, or ema_cross value).
 
-[BagLearner.py](BagLearner.py)
+[BagLearner.py](BagLearner.py)  
 This file combines multiple instances of the RTLearner class and returns a more robust model.
 
-[decision_tree_strategy.py](decision_tree_strategy.py)
+[decision_tree_strategy.py](decision_tree_strategy.py)  
 This file utilizes the BagLearner class which encompasses the RTLearner class. This is a supervised learning method where the "X" values are the daily technical indicator values. The "Y" value is created by dividing the closing price five days from present by the closing price for the present day. The intuition here is that if the value five days from present is greater than today, then buying today would yield more return than just holding cash. Then after looking into what these values could be, I arrived at setting a threshold of 0.03 +- impact to decide either to flag a long (+1) signal or a short (-1) signal. So, then we have three features (X) for today (techincal indicator values) and a single integer (+1 or -1) representing our "Y" value.
 Then the x and y data is fed to the BagLearner and furthermore RTLearner to "add_evidence" and build the tree and then the "query" function is used to make buy or sell decisions on new or existing data.
 
