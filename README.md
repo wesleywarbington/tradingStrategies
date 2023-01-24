@@ -37,9 +37,7 @@ dyna = 0
 ```
 
 # Visualizations
-![plot](./outputs/in_sample_normalized_portfolios.png)
-
-![plot](./outputs/out_of_sample_normalized_portfolios.png)
+![](./outputs/in_sample_normalized_portfolios.png) ![](./outputs/out_of_sample_normalized_portfolios.png)
 
 ![plot](./outputs/impact_dts.png)
 
