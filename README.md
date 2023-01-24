@@ -37,15 +37,15 @@ dyna = 0
 ```
 
 # Visualizations
-![](./outputs/in_sample_normalized_portfolios.png) ![](./outputs/out_of_sample_normalized_portfolios.png)
+![](./outputs/in_sample_normalized_portfolios.png) 
 
-<img src="./outputs/in_sample_normalized_portfolios.png" width="450" height="325"> <img src="./outputs/out_of_sample_normalized_portfolios.png" width="450" height="325">
+![](./outputs/out_of_sample_normalized_portfolios.png)
 
-![plot](./outputs/impact_dts.png)
+![](./outputs/impact_dts.png)
 
-![plot](./outputs/impact_rls.png)
+![](./outputs/impact_rls.png)
 
-![plot](./outputs/impact_vs_numTrades.png)
+![](./outputs/impact_vs_numTrades.png)
 
 # File Breakdowns
 
