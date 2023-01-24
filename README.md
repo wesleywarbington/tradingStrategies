@@ -39,6 +39,8 @@ dyna = 0
 # Visualizations
 ![](./outputs/in_sample_normalized_portfolios.png) ![](./outputs/out_of_sample_normalized_portfolios.png)
 
+<img src="./outputs/in_sample_normalized_portfolios.png" width="100" height="100">
+
 ![plot](./outputs/impact_dts.png)
 
 ![plot](./outputs/impact_rls.png)
