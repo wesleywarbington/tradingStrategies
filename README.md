@@ -49,13 +49,13 @@ dyna = 0
 
 # File Breakdowns
 
-[util.py](util.py)
+[util.py](util.py) 
 This file contains some utility functions that the other files can use for processing of data. The "get_data" function is called multiple times from multiple separate files. This function builds and returns a data frame with daily stock data from the csv files in the data folder.
 
-[marketsimcode.py](marketsimcode.py)
+[marketsimcode.py](marketsimcode.py) 
 This file takes in a dataframe that specifies buy or sell orders for each day and a respective stock symobl. It creates and returns a dataframe representing daily portfolio values based off the trades.
 
-[indicators.py](indicators.py)
+[indicators.py](indicators.py) 
 This file contains the logic for calculating the three technical indicators data that the strategies use to make their trading decisions. The three indicators are the bollinger band percentage (BBP), relative strength index (RSI), and an exponential moving average cross (EMA Cross) which combines ema with a a 13 and 21 day lookback period into one indicator.
 
 [ManualStrategy.py](ManualStrategy.py)
@@ -70,5 +70,5 @@ This file contains the logic for calculating the three technical indicators data
 
 [reinforcement_learning_strategy.py](reinforcement_learning_strategy.py)
 
-[testproject.py](testproject.py)
+[testproject.py](testproject.py) 
 This is the main dirver file that brings everything together. It runs a few analysis functions that plot the data and write statistics to a .txt file. The functions "analysis_1" and "analysis_2" are the main functions while the others are helper functions for these two main ones.
