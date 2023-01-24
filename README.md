@@ -71,9 +71,11 @@ This file combines multiple instances of the RTLearner class and returns a more 
 This file utilizes the BagLearner class which encompasses the RTLearner class. This is a supervised learning method where the "X" values are the daily technical indicator values. The "Y" value is created by dividing the closing price five days from present by the closing price for the present day. The intuition here is that if the value five days from present is greater than today, then buying today would yield more return than just holding cash. Then after looking into what these values could be, I arrived at setting a threshold of 0.03 +- impact to decide either to flag a long (+1) signal or a short (-1) signal. So, then we have three features (X) for today (techincal indicator values) and a single integer (+1 or -1) representing our "Y" value.
 Then the x and y data is fed to the BagLearner and furthermore RTLearner to "add_evidence" and build the tree and then the "query" function is used to make buy or sell decisions on new or existing data.
 
-[QLearner.py](QLearner.py)
+[QLearner.py](QLearner.py)  
+This file is a reinforcement learning class that is implemented with a Q-Learner algorithm. It requires an environment to interact with, which is defined in the reinforcement_learning_strategy. It also implements "dyna" which is an addition to the algorithm which can allow the model to bootstrap on already seen data when there is a lack of training data or it is expensive to obtain. 
 
-[reinforcement_learning_strategy.py](reinforcement_learning_strategy.py)
+[reinforcement_learning_strategy.py](reinforcement_learning_strategy.py)  
+
 
 [testproject.py](testproject.py)  
 This is the main dirver file that brings everything together. It runs a few analysis functions that plot the data and write statistics to a .txt file. The functions "analysis_1" and "analysis_2" are the main functions while the others are helper functions for these two main ones.
