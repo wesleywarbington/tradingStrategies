@@ -1,5 +1,5 @@
 # tradingStrategies
-[strategyEval_report.pdf](strategyEval_report.pdf) is a report that was written for a Georgia Tech masters course Fall of 2022. The code here extends upon the work in the original report and I have since added reinforcement learning to the mix of strategies.
+[strategyEval_report.pdf](strategyEval_report.pdf) was written for a Georgia Tech masters course Fall of 2022 relating to this material. The code here extends upon the work in the original report and I have since added reinforcement learning to the mix of strategies.
 
 An updated conceptual overview can be found here on Medium. Additonally, the contents of individual functions is briefly described at the bottom of this file.
 
