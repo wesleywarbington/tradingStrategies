@@ -1,4 +1,8 @@
 # tradingStrategies
+[strategyEval_report.pdf](strategyEval_report.pdf) is a report that was written for a Georgia Tech masters course Fall of 2022. The code here extends upon the work in the original report and I have since added reinforcement learning to the mix of strategies.
+
+An updated conceptual overview can be found here on Medium. Additonally, the contents of individual functions is briefly described at the bottom of this file.
+
 Development was done in a conda environment and the [environment.yml](environment.yml) file defines all the dependencies.
 
 [testproject.py](testproject.py) is the main driver file. Here you can adjust the parameters for the analysis. The variables are the stock symbol, start date, end date (for training and test) and the starting value (in dollars) for the portfolio. For the analysis here, the values used were:
