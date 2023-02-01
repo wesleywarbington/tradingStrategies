@@ -1,7 +1,7 @@
 # tradingStrategies
 [strategyEval_report.pdf](strategyEval_report.pdf) was written for a Georgia Tech masters course Fall of 2022 summarizing the work documented here. The current code extends upon the work in the original report and I have since added reinforcement learning to the mix of strategies.
 
-An updated conceptual overview can be found [here](https://medium.com/@wesleywarbington_22315/ai-stock-trading-d71955621834) on Medium. Additonally, the contents of individual functions are briefly described at the bottom of this file.
+An updated conceptual overview can be found on [my Medium](https://medium.com/@wesleywarbington_22315/ai-stock-trading-d71955621834). Additonally, the contents of individual functions are briefly described at the bottom of this file.
 
 Development was done in a conda environment and the [environment.yml](environment.yml) file defines all the dependencies.
 
